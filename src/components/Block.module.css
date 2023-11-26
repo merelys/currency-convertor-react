@@ -1,0 +1,39 @@
+.wrapper {
+  margin-bottom: 1rem;
+}
+
+.currencies {
+  display: flex;
+  margin: 1rem 0 1rem;
+}
+
+.currency {
+  flex: 1;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.active {
+  background-color: #16b67f;
+  color: #fff;
+}
+
+.counting {
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  font-size: 2.5rem;
+  letter-spacing: 1.3px;
+  margin-bottom: 2rem;
+  outline: none;
+  border: none;
+}
+
+.text {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+}
